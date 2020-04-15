@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <link rel = "stylesheet" href="/css/styles.css">
+    <title>Index</title>
+    <link rel="icon" href="/img/weather.png">
+    
+    
+</head>
+<body>
+    <div class="main"> 
+{{>header}} 
+<p class="par">Use this size to get your weather !</p>
+<form>
+    <input placeholder="Location">
+    <button>Search</button>
+</form>
+
+    <p class="par" id="message-1"></p>
+    <p class="par" id="message-2"></p>
+    </div>
+
+    {{>footer}}
+    <script src="/js/app.js"></script>
+</body>
+</html>
